@@ -1,0 +1,19 @@
+{
+  "name": "react-web-auto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/chico-malo/react-web-auto.git",
+  "author": "yangyao <873241789@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "rm -rf dist/* && parcel  build index.html -d dist --public-url ./"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
