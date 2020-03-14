@@ -4,7 +4,7 @@ export default class Tudo extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hello, world  yoyo sang!</h1>
+        <h1>Hello, world  yoyo!</h1>
       </div>
     );
   }
