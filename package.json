@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "parcel index.html",
-    "build": "rm -rf dist/* && parcel  build index.html -d dist --public-url ./"
+    "build": "rm -rf dist/* && parcel  build index.html -d dist --public-url ./ && git add ./ && git commit -m autoCi && git push"
   },
   "devDependencies": {
     "typescript": "^3.8.3"
